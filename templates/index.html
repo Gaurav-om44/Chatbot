@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Chatbot</title>
+</head>
+<body>
+  <h1>Ask Your Question</h1>
+  <form method="POST" action="/ask">
+    <input type="text" name="question" placeholder="Enter your question">
+    <input type="submit" value="Ask">
+  </form>
+  {% if answer %}
+    <p>{{ answer }}</p>
+  {% endif %}
+</body>
+</html>
