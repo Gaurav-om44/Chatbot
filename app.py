@@ -24,7 +24,7 @@ def answer_question(text, question):
     return "I couldn't find an answer to your question."
 
 # Example usage
-pdf_path = ".\\uploads\\Gaurav_Pandey_Resume.pdf"
+pdf_path = "/opt/render/project/src/Gaurav_Pandey_Resume.pdf"
 text = extract_text_from_pdf(pdf_path)
 
 while True:
